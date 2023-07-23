@@ -7,6 +7,8 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
+    background-color: papayawhip;
+
 }
 
 header {
@@ -14,7 +16,10 @@ header {
     top: 0;
     background: white;
     height: 66px;
+
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    background-color: papayawhip;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .rightBox {
@@ -29,6 +34,7 @@ header {
 
 .container {
     padding: 0 10vw;
+    background-color: papayawhip;
 }
 
 .containerHeader {
@@ -65,16 +71,19 @@ nav ul li {
 .itemImg {
     width: 12vw;
     margin: 6px 12px;
+    transition: transform .2s;
 }
 
 .categoryImg {
     width: 12vw;
     margin: 6px 12px;
+    transition: transform .2s;
 }
 
 .trendImg {
     width: 12vw;
     margin: 6px 12px;
+    transition: transform .2s;
 }
 
 footer {
@@ -99,6 +108,18 @@ footer {
 .ps-body {
     font-size: small;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.trendImg:hover {
+    transform: scale(1.5);
+}
+
+.itemImg:hover {
+    transform: scale(1.5);
+}
+
+.categoryImg:hover {
+    transform: scale(1.5);
 }
 
 @media (max-width: 450px) {
